@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/good-storage': ^1.1.0
   '@types/node': ^20.1.0
   '@typescript-eslint/eslint-plugin': ^5.46.1
   '@typescript-eslint/parser': ^5.46.1
@@ -10,6 +11,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-vue: ^9.8.0
+  good-storage: ^1.1.1
   husky: ^8.0.2
   lint-staged: ^13.1.0
   postcss: ^8.4.20
@@ -30,9 +32,11 @@ specifiers:
 
 dependencies:
   dotenv: registry.npmmirror.com/dotenv/16.0.3
+  good-storage: registry.npmmirror.com/good-storage/1.1.1
   vue: registry.npmmirror.com/vue/3.2.45
 
 devDependencies:
+  '@types/good-storage': registry.npmmirror.com/@types/good-storage/1.1.0
   '@types/node': registry.npmmirror.com/@types/node/20.1.0
   '@typescript-eslint/eslint-plugin': registry.npmmirror.com/@typescript-eslint/eslint-plugin/5.46.1_mqzxmroayievgzgel6yrqgih5i
   '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.46.1_lzzuuodtsqwxnvqeq4g4likcqa
@@ -437,6 +441,12 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': registry.npmmirror.com/@nodelib/fs.scandir/2.1.5
       fastq: registry.npmmirror.com/fastq/1.14.0
+    dev: true
+
+  registry.npmmirror.com/@types/good-storage/1.1.0:
+    resolution: {integrity: sha512-N6zADalBl9mmZONn/ljfVKyFljCH1dGaIq7rSaYUCIRL8C8TypIFe1fXfFD2Z6LsdcOFcQEhXauClCJIJvoiHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/good-storage/-/good-storage-1.1.0.tgz}
+    name: '@types/good-storage'
+    version: 1.1.0
     dev: true
 
   registry.npmmirror.com/@types/json-schema/7.0.11:
@@ -1751,6 +1761,12 @@ packages:
     name: globjoin
     version: 0.1.4
     dev: true
+
+  registry.npmmirror.com/good-storage/1.1.1:
+    resolution: {integrity: sha512-+0UEpRT03fJgEJoeTVVz41ISC5+jaQrDIWatQ4BoDQfOiBBsjNanymi9sAtLFdEAADQN0FYR8mGpeqxSCe8oXQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/good-storage/-/good-storage-1.1.1.tgz}
+    name: good-storage
+    version: 1.1.1
+    dev: false
 
   registry.npmmirror.com/grapheme-splitter/1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz}
