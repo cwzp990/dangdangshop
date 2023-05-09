@@ -1,5 +1,5 @@
 import { Context, Next } from 'koa';
-import { fail } from '../common/resResult';
+import { fail } from './ResResult';
 
 const globalException = async (ctx: Context, next: Next) => {
   try {
