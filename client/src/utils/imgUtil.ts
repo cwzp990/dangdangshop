@@ -16,7 +16,7 @@ export class ImgUtil {
   }
 
   static loadAllImg() {
-    const imgMap = import.meta.glob('../assets/img/**/*.png', { eager: true })
+    const imgMap = import.meta.glob('../assets/imgs/**/*.png', { eager: true })
     let absolutePath = ''
     let imgName = ''
     Object.keys(imgMap).forEach((relativePath) => {

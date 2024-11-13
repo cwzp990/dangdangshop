@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/* body默认字体*/
+body {
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+
+body,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover,
+a:active {
+  outline-width: 0;
+  text-decoration: none;
+}
+
+/* 设置 hr 边框为0*/
+hr {
+  border: 0;
+  height: 1px;
+}
+
+/* 设置图片边框为 none */
+img {
+  border-style: none;
+}
+
+/* 当img没有接收到 src 不占页面空间 */
+img:not([src]) {
+  display: none;
+}
+
+/* ie8以上浏览器有效*/
+html {
+  /*禁用系统默认菜单*/
+  -webkit-touch-callout: none;
+  /*关闭iphone & Android的浏览器纵向和横向模式中自动调整字体大小的功能*/
+  -webkit-text-size-adjust: 100%;
+}
+input,
+textarea,
+button,
+a {
+  /* 去除点击表单或者a标签在手机点击时会出现的背景框*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%; /* 默认大小或相对父元素的字体大小 */
+  outline: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+textarea {
+  overflow: auto;
+}
+
+button,
+html [type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
