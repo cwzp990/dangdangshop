@@ -1,5 +1,3 @@
-/* eslint-disable antfu/top-level-function */
-
 import type { RouteRecordRaw } from 'vue-router'
 import { createRouter, createWebHistory } from 'vue-router'
 import storage from '../utils/storageUtil'
