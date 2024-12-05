@@ -1,4 +1,4 @@
-import request from '@/utils/axiosUtil'
+import request from '../utils/axiosUtil'
 
 class BookAPI {
   static bookAPI: BookAPI = new BookAPI()
