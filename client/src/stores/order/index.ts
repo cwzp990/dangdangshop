@@ -2,9 +2,8 @@ import { defineStore } from 'pinia'
 import { countDownConvert, getFormattedDate } from '@/utils/generalUtil'
 import storage, { OPTION } from '@/utils/storageUtil'
 
-import type { UserInfo } from '../user'
 import orderAPI from '../../api/order'
-import { ShopCartInfo } from '../types'
+import { ShopCartInfo, UserInfo } from '../types'
 
 
 export interface OrderInfo {

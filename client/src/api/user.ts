@@ -1,5 +1,5 @@
+import { UserInfo } from '../stores/types'
 import request from '../utils/axiosUtil'
-import type { UserInfo } from '../stores/user'
 
 class UserAPI {
   static userAPI: UserAPI = new UserAPI()
